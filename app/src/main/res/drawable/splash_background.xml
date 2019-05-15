@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 배경색 설정 -->
+    <item android:drawable="@drawable/splash_base" />
+
+    <!-- 스플래시 로고 이미지 -->
+    <item android:top="205dp">
+        <bitmap android:src="@drawable/splash_logo"
+            android:gravity="top" />
+    </item>
+
+    <!-- 커넥트 로고 이미지 -->
+    <item android:bottom="100dp">
+        <bitmap android:src="@drawable/connect_logo"
+                android:gravity="bottom" />
+    </item>
+
+</layer-list>
